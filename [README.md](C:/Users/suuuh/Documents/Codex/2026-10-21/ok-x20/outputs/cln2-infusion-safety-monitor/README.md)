@@ -1,0 +1,39 @@
+# CLN2 Infusion Safety Monitor
+
+An interpretable healthcare AI research prototype for identifying unusual infusion sessions in children receiving intraventricular cerliponase alfa for CLN2 disease.
+
+## Project overview
+
+Children with CLN2 disease require repeated intraventricular infusions of cerliponase alfa. This project will explore whether transparent safety rules and anomaly-detection methods can help identify infusion records that may require additional clinical review.
+
+The initial version will use synthetic data and will focus on factors such as:
+
+- number of access attempts;
+- successful cerebrospinal fluid return;
+- infusion duration;
+- resistance during flushing;
+- leakage or swelling;
+- possible signs of infection;
+- time since device implantation; and
+- previous device-related problems.
+
+## Planned components
+
+- Synthetic infusion-record generator
+- Transparent safety-rule system
+- Interpretable anomaly-detection model
+- Model evaluation and visualizations
+- Simple demonstration dashboard
+- Automated tests and documentation
+
+## Project status
+
+This repository is at the initial planning stage. The implementation, data definitions, evaluation approach, and documentation will be developed incrementally.
+
+## Important disclaimer
+
+This project is for research and educational purposes only. It is not a medical device, has not been clinically validated, and must not be used to diagnose patients, recommend treatment, or make clinical decisions. Any synthetic data included in this repository will not represent real patients.
+
+## License
+
+A license will be selected before the project is released for reuse.
